@@ -1,29 +1,29 @@
 #!/bin/sh
 
 powerchime() {
-    local chimerunning=1
-    pgrep PowerChime > /dev/null || chimerunning=
+  local pc='PowerChime'
+  local running=1
+  pgrep $pc > /dev/null || running=
 
-    if [ $chimerunning ]; then
+  printf "  [$pc] "
+  if [ $running ]; then
+    echo 'turned off'
+    killall $pc
+    afplay /System/Library/Sounds/Submarine.aiff
     local cOnNo=true
     local cOnAll=false
-    else
+  else
+    echo 'is running'
+    afplay /System/Library/CoreServices/$pc.app/Contents/Resources/connect_power.aif
     local cOnNo=false
     local cOnAll=true
-    fi
+  fi
 
-    defaults write com.apple.PowerChime ChimeOnNoHardware -bool "$cOnNo" && \
-    defaults write com.apple.PowerChime ChimeOnAllHardware -bool "$cOnAll"
+  defaults write com.apple.$pc ChimeOnNoHardware -bool $cOnNo && \
+  defaults write com.apple.$pc ChimeOnAllHardware -bool $cOnAll
 
-    printf '  [PowerChime] is '
-    if [ $chimerunning ]; then
-    echo 'off'
-    killall PowerChime
-    afplay /System/Library/Sounds/Submarine.aiff
-    else
-    echo 'running'
-    open -g -a PowerChime
-    afplay /System/Library/CoreServices/PowerChime.app/Contents/Resources/connect_power.aif
-    fi
+  if ! [ $running ]; then
+    open -g -a $pc
+  fi
 }
 powerchime
