@@ -5,7 +5,7 @@
   Quickly switch macOS' <b>PowerChime</b>
 </p>
 
-<img alt="preview" align="center" width="80%" src="preview.png">
+![Preview](preview.png)
 
 <p align="center">
 	As far as I can guess, this sound appears only on MacBooks with <b>USB-C charging</b>, so starting with 2015 MacBook.
