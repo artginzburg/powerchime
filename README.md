@@ -5,6 +5,10 @@
   Quickly switch macOS' <b>PowerChime</b>
 </p>
 
+<p align="center">
+	ARCHIVED: On macOS <b>Big Sur</b> <sup>11.0+</sup>, PowerChime is turned off by un-ticking System Preferences > Sound > Play user interface sound effects 
+<p>
+
 ![Preview](preview.png)
 
 <p align="center">
@@ -18,7 +22,7 @@
 
 <blockquote align="center">
 	<p align="center">
-		Don't expect that you would use it often so the script is not installing on your Mac, it just runs and that's all
+		I don't expect you using it often, so the script doesn't install on your Mac, it just runs and that's all
 	</p>
 </blockquote>
 
