@@ -5,10 +5,6 @@
   Quickly switch macOS' <b>PowerChime</b>
 </p>
 
-<p align="center">
-	ARCHIVED: On macOS <b>Big Sur</b> <sup>11.0+</sup>, PowerChime is turned off by un-ticking System Preferences > Sound > Play user interface sound effects 
-<p>
-
 ![Preview](preview.png)
 
 <p align="center">
