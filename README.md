@@ -8,12 +8,18 @@
 ![Preview](preview.png)
 
 <p align="center">
-	As far as I can guess, this sound appears only on MacBooks with <b>USB-C charging</b>, so starting with 2015 MacBook.
+	<sup>Just type <a href="//git.io/nochime"><code>git.io/nochime</code></a> to go here.</sup>
+</p>
+
+<br>
+
+<p align="center">
+	As far as I can guess, this sound appears only on MacBooks with <b><a href="//wikipedia.org/wiki/USB-C">USB-C</a> charging port</b>, so starting with <a href="//wikipedia.org/wiki/MacBook_(2015–2019)">2015 MacBook</a>.
 <p>
 
 <h2>
 	Usage
-	<img align="right" alt="code size in bytes" src="https://img.shields.io/github/languages/code-size/dafuqtor/powerchime?label=script%20size">
+	<img align="right" alt="code size in bytes" src="https://img.shields.io/github/languages/code-size/artginzburg/powerchime?label=script%20size">
 </h2>
 
 <blockquote align="center">
@@ -21,6 +27,8 @@
 		I don't expect you using it often, so the script doesn't install on your Mac, it just runs and that's all
 	</p>
 </blockquote>
+
+Open [Terminal](//wikipedia.org/wiki/Terminal_(macOS)) and run the following command:
 
 ```powershell
 curl -sL git.io/powerchime | sh
@@ -38,6 +46,8 @@ curl -sL git.io/powerchime | sh
   > The weird thing is that macOS lets you easily switch, for example, [the startup sound](#switching-the-startup-sound), but not PowerChime.
 </details>
 
+People might be sleeping
+
 <br>
 
 <details align="right">
@@ -45,7 +55,7 @@ curl -sL git.io/powerchime | sh
 <blockquote>
   <br>
   <ol>
-    <li>Disable <a href="//en.wikipedia.org/wiki/System_Integrity_Protection">SIP</a></li>
+    <li>Disable <a href="//wikipedia.org/wiki/System_Integrity_Protection">SIP</a></li>
     <li>Remove the `/System/Library/CoreServices/PowerChime.app/Contents/Resources/connect_power.aif` file</li>
   </ol>
   <p>This may or may not work. Better Google it.</p>
@@ -56,4 +66,4 @@ curl -sL git.io/powerchime | sh
 
 #### Switching the startup sound
 
- > System Preferences... > Sound > Sound Effects > [ ] Play sound on startup
+<code></code> > <code>System Preferences...</code> > <code>Sound</code> > <code>Sound Effects</code> > <code>[ ] Play sound on startup</code>
