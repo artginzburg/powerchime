@@ -19,7 +19,7 @@
 
 <h2>
 	Usage
-	<img align="right" alt="code size in bytes" src="https://img.shields.io/github/languages/code-size/artginzburg/powerchime?label=script%20size">
+	<img align="right" alt="File size in bytes" src="https://img.shields.io/github/size/artginzburg/powerchime/powerchime.sh">
 </h2>
 
 <blockquote align="center">
