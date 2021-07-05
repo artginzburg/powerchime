@@ -28,19 +28,26 @@
 	</p>
 </blockquote>
 
-Open [Terminal](//wikipedia.org/wiki/Terminal_(macOS)) and run the following command:
+Open [Terminal](//wikipedia.org/wiki/Terminal_(macOS) "(Terminal.app) is the terminal emulator included in the macOS operating system by Apple. Terminal originated in NeXTSTEP and OPENSTEP, the predecessor operating systems of macOS.") and run the following command: 
 
 ```powershell
 curl -sL git.io/powerchime | sh
 ```
 
-<br><br><br><br>
+<sub align="center">
+	
+The script is harmless, [transparent](/src/powerchime.sh "free, open-source, and secure"), and easily revertable <sup>(by running it again)</sup>
+	
+</sub>
+
+<br><br><br>
 
 ### Reasons
 <details>
   <summary>Annoyance</summary>
   <br>
-  The sound of the charging cable being connected is unnecessary and might even be annoying, because you already see battery status right in the Menu Bar.
+
+  The sound of a charging cable being connected might be unnecessary and even annoying, because you already see the battery status right in your [Menu Bar](//support.apple.com/en-gb/guide/mac-help/aside/glos33eb8abd/11.0/mac/11.0 "The menu bar runs along the top of the screen on your Mac. The left side of the menu bar contains the Apple menu  and app menus. The right side of the menu bar can contain status menus, such as Wi-Fi, Spotlight  and Siri  — you can customise which items are shown using Dock & Menu Bar preferences. Control Centre  and Notification Centre (click the date and time) are always available in the menu bar.").
   
   <br><br>
   > The weird thing is that macOS lets you easily switch, for example, [the startup sound](#switching-the-startup-sound), but not PowerChime.
@@ -66,4 +73,4 @@ People might be sleeping
 
 #### Switching the startup sound
 
-<code></code> > <code>System Preferences...</code> > <code>Sound</code> > <code>Sound Effects</code> > <code>[ ] Play sound on startup</code>
+<code></code> > <code>System Preferences...</code> > <code>Sound</code> > <code>Sound Effects</code> > :black_square_button: <code>Play sound on startup</code>
