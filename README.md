@@ -61,11 +61,8 @@ People might be sleeping
   <summary><sub>To remove PowerChime even with the lid closed...</sub></summary>
 <blockquote>
   <br>
-  <ol>
-    <li>Disable <a href="//wikipedia.org/wiki/System_Integrity_Protection">SIP</a></li>
-    <li>Remove the `/System/Library/CoreServices/PowerChime.app/Contents/Resources/connect_power.aif` file</li>
-  </ol>
-  <p>This may or may not work. Better Google it.</p>
+  <p>Starting from Big Sur, the loudness of PowerChime depends on your system's volume. If it's muted — the charging sound won't play. Even with the lid closed.</p>
+  <p>For Catalina and prior, the charging sound volume has a fixed value — consider reading <a href="https://www.makeuseof.com/tag/make-mac-play-sound-plug-charger/#how-to-change-the-macbook-charging-sound">this article</a> on how to change the charging sound.</p>
 </blockquote>
 </details>
 
