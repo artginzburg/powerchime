@@ -8,10 +8,10 @@
 ![Preview](preview.png)
 
 <p align="center">
-	<sup>Just type <a href="//git.io/nochime"><code>git.io/nochime</code></a> to go here.</sup>
+	<sub>Just type <a href="https://git.io/nochime"><code>git.io/nochime</code></a> to go here.</sub>
 </p>
 
-<br>
+<br />
 
 <p align="center">
 	As far as I can guess, this sound appears only on MacBooks with <b><a href="//wikipedia.org/wiki/USB-C">USB-C</a> charging port</b>, so starting with <a href="//wikipedia.org/wiki/MacBook_(2015–2019)">2015 MacBook</a>.
