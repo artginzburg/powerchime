@@ -36,7 +36,7 @@ curl -sL git.io/powerchime | sh
 
 <sub align="center">
 	
-The script is harmless, [transparent](/src/powerchime.sh "free, open-source, and secure"), and easily revertable <sup>(by running it again)</sup>
+The script is harmless, [transparent](/powerchime.sh "free, open-source, and secure"), and easily revertable <sup>(by running it again)</sup>
 	
 </sub>
 
