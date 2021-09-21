@@ -5,7 +5,7 @@
   Quickly switch macOS' <b>PowerChime</b>
 </p>
 
-![Preview](preview.png)
+![Preview](misc/preview.png)
 
 <p align="center">
 	<sub>Just type <a href="https://git.io/nochime"><code>git.io/nochime</code></a> to go here.</sub>
@@ -19,6 +19,7 @@
 
 <h2>
 	Usage
+  <a href="https://github.com/artginzburg/powerchime/releases"><img align="right" src="https://img.shields.io/github/downloads/artginzburg/powerchime/total?label=downloads" /></a>
 	<img align="right" alt="File size in bytes" src="https://img.shields.io/github/size/artginzburg/powerchime/powerchime.sh">
 </h2>
 
@@ -31,7 +32,7 @@
 Open [Terminal](//wikipedia.org/wiki/Terminal_(macOS) "(Terminal.app) is the terminal emulator included in the macOS operating system by Apple. Terminal originated in NeXTSTEP and OPENSTEP, the predecessor operating systems of macOS.") and run the following command: 
 
 ```powershell
-curl -sL git.io/powerchime | sh
+curl -sL git.io/no-chime | sh
 ```
 
 <sub align="center">
